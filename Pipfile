@@ -6,11 +6,15 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "==3.1.2"
 django-bootstrap3 = "*"
 psycopg2 = "*"
-pillow = "*"
 python-decouple = "*"
+six = "*"
+asgiref = "==3.2.10"
+pytz = "==2020.1"
+sqlparse = "==0.4.1"
+Django = "==2.1.4"
+Pillow = "*"
 
 [requires]
 python_version = "3.8"

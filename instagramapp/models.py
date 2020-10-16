@@ -157,8 +157,8 @@ class NewsLetterRecipients(models.Model):
     email = models.EmailField()
 
 class Like(models.Model):
-    user = models.ForeignKey(User)
-    image = models.ForeignKey(Image)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    image = models.ForeignKey(Image, on_delete=models.CASCADE)
     value = models.IntegerField(default=True, null=True, blank=True)
 
     def save_like(self):
