@@ -55,7 +55,7 @@ def image(request, id):
     try:
         image = Image.objects.get(pk = id)
 
-    except DoesNotExist:
+    except ValueError:
         raise Http404()
 
     current_user = request.user
