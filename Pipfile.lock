@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "743a14f1aa285637547b07054bcd1143812da3888bc0721e236e35115c084318"
+            "sha256": "21a07c908089016df102af64086331b238e8d65eb00f45d1c7a6e6073ccc8435"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -24,6 +24,14 @@
             "index": "pypi",
             "version": "==3.2.10"
         },
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:4c98143716ef1cb40bf7f39a8e3eec8f8b009509e74904ba3a7b315431577e35",
+                "sha256:84729e322ad1d5b4d25f805bfa05b902dd96450f43842c4e99067d5e1369eb25",
+                "sha256:fff47e031e34ec82bf17e00da8f592fe7de69aeea38be00523c04623c04fb666"
+            ],
+            "version": "==4.9.3"
+        },
         "django": {
             "hashes": [
                 "sha256:a2127ad0150ec6966655bedf15dbbff9697cc86d61653db2da1afa506c0b04cc",
@@ -32,14 +40,14 @@
             "index": "pypi",
             "version": "==3.1.2"
         },
-        "django-bootstrap3": {
+        "django-bootstrap": {
             "hashes": [
-                "sha256:1fc3db37f29bcd159c0b00e1f15fd2d6dedf7551ce8bcca09072e33663c110de",
-                "sha256:c7e6912b5127bea913bc8504399613758760954140162e048184624765e61904"
+                "sha256:9d48756d600ea1d816150e5c5fc17149afec68e8190eaed56d0858d9a092caff"
             ],
             "index": "pypi",
-            "version": "==14.2.0"
+            "version": "==0.2.4"
         },
+       
         "pillow": {
             "hashes": [
                 "sha256:04d984e45a0b9815f4b407e8aadb50f25fbb82a605d89db927376e94c3adf371",
@@ -116,6 +124,14 @@
             ],
             "index": "pypi",
             "version": "==1.15.0"
+        },
+        "soupsieve": {
+            "hashes": [
+                "sha256:1634eea42ab371d3d346309b93df7870a88610f0725d47528be902a0d95ecc55",
+                "sha256:a59dc181727e95d25f781f0eb4fd1825ff45590ec8ff49eadfd7f1a537cc0232"
+            ],
+            "markers": "python_version >= '3.0'",
+            "version": "==2.0.1"
         },
         "sqlparse": {
             "hashes": [
