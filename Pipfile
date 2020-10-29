@@ -18,6 +18,10 @@ Pillow = "*"
 django-bootstrap4 = "*"
 django-bootstrap = "*"
 django-haystack = "==3.0b2"
+whitenoise = "*"
+gunicorn = "*"
+django-heroku = "*"
+dj-database-url = "*"
 
 [requires]
 python_version = "3.8"
